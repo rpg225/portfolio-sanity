@@ -5,6 +5,7 @@ import SinglePost from "./components/SinglePost.js";
 import Post from "./components/Post.js";
 import Project from "./components/Project.js";
 import NavBar from "./components/NavBar.js";
+import Footer from "./components/Footer.js";
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route  path='/project' element={<Project />} />
 
       </Routes>
+    <Footer></Footer>
     </BrowserRouter>
   );
 }

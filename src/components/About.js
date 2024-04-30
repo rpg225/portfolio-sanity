@@ -2,7 +2,19 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <div className='about-section'>
+
+      <section className='about' id='about'>
+          <div className='imageContainer'>
+              {/* 
+            Source the image later
+              */}  
+
+          </div>
+          
+      </section>
+
+    </div>
   )
 }
 
