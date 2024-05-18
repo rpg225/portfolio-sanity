@@ -10,8 +10,8 @@ function NavBar() {
                     <NavLink to="/" 
                     exact 
                     activeClassName="text-white"
-                    className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-yellow-300 text4xl font-bold cursive tracking-widest">
-                        Rambod
+                    className="inflex-flex items-center py-6 px-3 mr-4 text-red-100">
+                        Home
                     </NavLink>
                     <NavLink to="/about" 
                         className="inflex-flex items-center py-6 px-3 mr-4 text-red-100"
