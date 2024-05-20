@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './Hero.js'
 import Contact from './Contact.js'
+import SampleWork from './SampleWork.js'
 import { FaGithub,FaHtml5, FaCss3, FaReact, FaJsSquare, FaNode, FaBootstrap } from "react-icons/fa";
 import { SiTypescript, SiSanity, SiWordpress, SiFigma, SiVuedotjs, SiAngular, SiPhp, SiExpress, SiVisualstudio } from "react-icons/si";
 import { SiSolidity, SiCplusplus, SiPython, SiWeb3Dotjs } from "react-icons/si";
@@ -114,16 +115,18 @@ function Home() {
                 {/* put all the stuff learning */}
               
           </ul>
-        
         </div> {/* .wrapper end */}
       </section> {/* Skills section end */}
-      <section className='SampleWork'>
+      <section className='SampleWork bg-red-200'>
         {/* For this section only just put 3 samples of work, for everything else click view my work*/}
-       <div>Work Section </div>
+        <SampleWork />
        </section>
-      <section className="contact">
+      <div className='bg-blue-100'>
+      <section className="contact bg-blue-100">
         <Contact />
       </section>
+      </div>
+
     </div>
 
     
